@@ -21,4 +21,55 @@ nav ul{
 body{
     margin: 0;
     font-family: sans-serif;
+    padding-inline: 1.5rem;
+    background-color: black;
+    color: aliceblue;
+}
+.title{
+    text-align: center;
+}
+.type-gradient{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 150px;
+    gap: 40px;
+    justify-content: center;
+    
+.flag-container{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    flex-direction: column;
+}
+.flag{
+    width: 250px;
+    height: 170px;
+    border: 2px solid white;
+}
+.flag-armenia{
+    background-image: linear-gradient(#D90013 33%,#002664 33% 66%,#F2A900 66%);
+}
+.flag-chad{
+    background-image: linear-gradient(to right,#002664 33%, #FECB01 33% 67%, #C60C30 67%);}
+}
+.flag-congo{
+    background-image: linear-gradient(145deg, #009543 40%, #FBDE4A 40% 60%, #DA1A35 60%);
+}
+.flag-greenland{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(#FFFFFF 50%, #C8102F 50%);
+}
+.flag-greenland::after{
+    content: "";
+    position: absolute;
+    left: 35px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#C8102F 50%, #FFFF 50%);
+}
+.flag-madagascar{
+    background-image: linear-gradient(to right, #FFFF 35%, transparent 35%) ,linear-gradient(#FC3E32 50%, #007E39 50%);
 }
