@@ -103,7 +103,7 @@ body{
     position: absolute;
     width: 250px;
     height: 170px;
-    background-image: radial-gradient(circle at right center, #FFD700 15%, #6A0DAD 15% 27%, transparent 27% ), radial-gradient(circle at left center,  #FFD700 15%, #6A0DAD 15% 27%, transparent 27%);
+    background-image: radial-gradient(circle at 270px, #FFD700 15%, #6A0DAD 15% 27%, transparent 27% ), radial-gradient(circle at -25px,  #FFD700 15%, #6A0DAD 15% 27%, transparent 27%);
 }
 .flag-rainbow{
     background-image: radial-gradient(circle, red 25%, orange, yellow, green, blue ,purple, pink) ;}
