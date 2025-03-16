@@ -73,3 +73,5 @@ body{
 .flag-madagascar{
     background-image: linear-gradient(to right, #FFFF 35%, transparent 35%) ,linear-gradient(#FC3E32 50%, #007E39 50%);
 }
+.flag-seychelles{
+    background-image: linear-gradient(123deg, #012F6C 30%, transparent 30%) , linear-gradient(140deg,#FBDE4A 45%, transparent 45%), linear-gradient(159deg, #DA1A35 65%, transparent 65%), linear-gradient(169deg,#FFFFFF 80%, transparent 80%), linear-gradient(#007A33 100%, transparent 0%);}
